@@ -1,0 +1,49 @@
+* { margin: 0;
+    padding: 0;}
+
+h1 {color:#8468b3;
+    text-align: center;
+    font-family: monospace;
+    font-size: 70px;}
+h3 {text-align: center;}
+header li { display: inline-block;
+            padding: .5rem 3rem;
+            border-left: 4px solid #51406e;
+            }
+header li:first-of-type {border-left: none;}
+header nav{background-color: #8468b3;
+            text-align: center;}
+header a {color:white;
+        text-decoration: none;}
+.photolink {background-color: #b891f9;
+        display: inline-block;
+        padding: 5rem 4rem 8rem 4rem;
+        float:left;}
+.photolink li {list-style-type: none;}
+.photolink li a {text-decoration: none;
+                font-size: 2rem;
+                font-family: monospace;}
+article {background-color: #eee3f0;
+        padding-bottom: 1.8rem;}
+.main-pic {width:220px;
+    height: 200px;
+    padding: 5rem 20rem 2rem 25rem;}
+.foodInfo {margin: 0 20rem 2rem 30rem;
+            text-align: center;}
+footer {text-align: center;
+        margin: 2rem 0 2rem 0;}
+footer img{width: 2rem;
+            height: 2rem;
+            padding: 0 1rem 0 1rem;}
+footer img:hover {width:2.2rem;
+                height: 2.2rem;}
+figcaption {text-align: center;}
+section figure img {width: 15em;
+                height: 10em;
+                margin:3em .5em .5em .6em;}
+.recipe img {width:7em;
+            height:4em;
+            margin: .5em .5em .5em .5em;
+            float: left;}
+.recipe li {margin: 0 3em 2.375em 3em;
+            list-style-type: none;}
